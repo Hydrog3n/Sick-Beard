@@ -68,7 +68,7 @@ class LIBERTALIAProvider(generic.TorrentProvider):
             } ) + "*FRENCH*&cat%5B%5D="+cat+"&[PARAMSTR]=" + searchString +" FRENCH")
             results.append( urllib.urlencode( {
                 'name': searchString
-            } ) + "*FRENCH*&cat%5B%5D=9&[PARAMSTR]=" + searchString +" FRENCH")
+            } ) + "*FRENCH*&cat%5B%5D=5&[PARAMSTR]=" + searchString +" FRENCH")
         else:
             results.append( urllib.urlencode( {
                 'name': searchString
